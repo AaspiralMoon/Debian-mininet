@@ -1,5 +1,5 @@
 - Download [Debian 11](https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso).
-- Import the .iso into VirtualBox or VMware Fusion, and install Debian 11 (use default settings during the installation process, set root password: lab3, username: student, password: lab3).
+- Import the .iso into [UTM](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg), VirtualBox, or VMware Fusion, and install Debian 11 (use default settings during the installation process, set root password: lab3, username: student, password: lab3).
 - After entering the OS, enable [auto login](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en).
 - Add user “student” to sudo list, and enable no password for sudo commands:
 ```python
