@@ -43,3 +43,9 @@ sudo systemctl daemon-reload
 sudo systemctl start rc-local  # start the rc-local service
 sudo systemctl status rc-local # check if the service is active and running
 ```
+- create xterm.sh in home directory
+```python
+cd ~
+touch xterm.sh
+xterm leg vic att
+```
