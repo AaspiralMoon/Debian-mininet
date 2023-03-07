@@ -47,6 +47,7 @@ sudo systemctl status rc-local # check if the service is active and running
 ```python
 cd ~
 touch xterm.sh
+nano xterm.sh
 xterm leg vic att  # put this line in it
 ```
 - create a startup script start_mininet.sh in home directory
