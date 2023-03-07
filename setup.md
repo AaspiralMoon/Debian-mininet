@@ -2,7 +2,11 @@
 - Import the .iso into VirtualBox or VMware Fusion, and install Debian 11 (use default settings during the installation process, set username: student, password: lab3).
 - After entering the OS, enable [auto-login](https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en).
 - Add user “student” to sudo list, and enable no password for sudo commands:
-•	Run “su –“ , input the root passwd: lab3, and switch to the root user.
+```python
+su -i  # input the root password: lab3, switch to root user
+sudo visudo
+student ALL=(ALL) NOPASSWD: ALL  # add this line below root ALL=(ALL:ALL) ALL
+```
 
 
 sudo apt update
