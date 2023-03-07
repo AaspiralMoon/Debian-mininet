@@ -24,7 +24,7 @@ cd pox
 git checkout dart
 ```
 
-- enable rc.local service
+- enable rc.local service # put the following lines in this file
 ```python
 sudo nano /etc/rc.local
 ```
