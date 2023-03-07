@@ -60,7 +60,7 @@ nano start_mininet.sh   # put the following lines in it
 #!/bin/bash
 cd ~
 sudo mn -c    # clean up current mininet settings
-sudo python /home/student/attack-topo.py
+sudo python /home/student/attack-topo.py     # put attack-topo.py in home directory
 ```
 - run the startup script and test everything
 ```python
