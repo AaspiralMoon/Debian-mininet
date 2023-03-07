@@ -7,11 +7,8 @@ su -i  # input the root password: lab3, switch to root user
 sudo visudo
 student ALL=(ALL) NOPASSWD: ALL  # add this line below root ALL=(ALL:ALL) ALL
 ```
-
-
+- install packages
+```python
 sudo apt update
-sudo apt install git mininet wireshark netwox netcat python telnetd telnet -y
-
-git clone https://github.com/AaspiralMoon/temp
-cp temp/attack-topo.py /home/student/
-cp temp/start_mininet.sh /home/student/
+sudo apt install git mininet wireshark netwox netcat python python3 telnetd telnet libreoffice xterm -y
+```
