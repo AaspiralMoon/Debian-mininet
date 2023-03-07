@@ -1,6 +1,5 @@
 
-1.	Download Debian 11: 
-https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso
+1.	Download [Debian 11]: (https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-11.6.0-amd64-netinst.iso)
 2.	Import the .iso into VirtualBox or VMware Fusion, and install Debian 11 (use default settings during the installation process, set username: student, password: lab3).
 3.	After entering the OS, enable auto-login (https://help.ubuntu.com/stable/ubuntu-help/user-autologin.html.en).
 4.	Add user “student” to sudo list, and enable no password for sudo commands:
