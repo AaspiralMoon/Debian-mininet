@@ -14,5 +14,5 @@ sudo apt install git mininet wireshark netwox netcat python python3 telnetd teln
 ```
 - make sure the default python is python3.9:
 ```python
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
 ```
