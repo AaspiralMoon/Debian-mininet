@@ -12,3 +12,7 @@ student ALL=(ALL) NOPASSWD: ALL  # add this line below root ALL=(ALL:ALL) ALL
 sudo apt update
 sudo apt install git mininet wireshark netwox netcat python python3 telnetd telnet libreoffice xterm -y
 ```
+- make sure the default python is python3.9:
+```python
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 
+```
