@@ -24,13 +24,21 @@ cd pox
 git checkout dart
 ```
 
-- enable rc.local service # put the following lines in this file
+- enable rc.local service 
 ```python
-sudo nano /etc/rc.local
+sudo nano /etc/rc.local # put the following lines in this file
 ```
 
 ```python
 #!/bin/bash
 /home/student/pox/pox.py log.level --DEBUG misc.of_tutorial &
 exit 0
+```
+
+
+```python
+chmod +x /etc/rc.local
+sudo systemctl daemon-reload
+sudo systemctl start rc-local  # start the rc-local service
+sudo systemctl status rc-local # check if the service is active and running
 ```
