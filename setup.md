@@ -47,5 +47,5 @@ sudo systemctl status rc-local # check if the service is active and running
 ```python
 cd ~
 touch xterm.sh
-xterm leg vic att
+xterm leg vic att  # put this line in it
 ```
