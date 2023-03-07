@@ -62,3 +62,9 @@ cd ~
 sudo mn -c    # clean up current mininet settings
 sudo python /home/student/attack-topo.py
 ```
+- run the startup script and test everything
+```python
+cd ~
+chmod +x ./start_mininet.sh
+./start_mininet.sh
+```
