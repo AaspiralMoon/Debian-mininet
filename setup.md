@@ -12,6 +12,7 @@ student ALL=(ALL) NOPASSWD: ALL  # add this line below root ALL=(ALL:ALL) ALL
 sudo apt update
 sudo apt install git mininet wireshark netwox netcat python python3 telnetd telnet libreoffice xterm -y
 ```
+- install [ifconfig](https://www.how2shout.com/linux/install-ifconfigon-debian-11-or-10-if-command-not-found/)
 - make sure the default python is python3.9:
 ```python
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
