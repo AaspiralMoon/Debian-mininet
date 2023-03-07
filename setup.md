@@ -49,3 +49,15 @@ cd ~
 touch xterm.sh
 xterm leg vic att  # put this line in it
 ```
+- create a startup script start_mininet.sh in home directory
+```python
+cd ~
+touch start_mininet.sh
+nano start_mininet.sh   # put the following lines in it
+```
+```python
+#!/bin/bash
+cd ~
+sudo mn -c    # clean up current mininet settings
+sudo python /home/student/attack-topo.py
+```
