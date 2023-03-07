@@ -23,3 +23,14 @@ git clone http://github.com/noxrepo/pox
 cd pox
 git checkout dart
 ```
+
+- enable rc.local service
+```python
+sudo nano /etc/rc.local
+```
+
+```python
+#!/bin/bash
+/home/student/pox/pox.py log.level --DEBUG misc.of_tutorial &
+exit 0
+```
