@@ -68,3 +68,4 @@ cd ~
 chmod +x ./start_mininet.sh
 ./start_mininet.sh
 ```
+- test exporting and importing the virtual machine
