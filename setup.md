@@ -16,9 +16,10 @@ sudo apt install git mininet wireshark netwox netcat python python3 telnetd teln
 ```python
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.9 1
 ```
-- download Pox
+- download Pox in home directory
 ```python
+cd ~
 git clone http://github.com/noxrepo/pox
 cd pox
-pox$ git checkout dart
+git checkout dart
 ```
